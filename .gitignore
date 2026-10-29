@@ -1,0 +1,65 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Flask instance and local database files
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Migration-generated local caches
+server/migrations/__pycache__/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Distribution archives
+*.zip
+build/
+dist/
+
+# This is a Python-only backend submission.
+# No TypeScript files are expected.
+# No TSX files are expected.
+# Flask development server output
+*.pid
+
+# Local editor backups
+*~
+*.swp
+*.swo
+
+# Python tooling metadata
+.mypy_cache/
+.ruff_cache/
+
+# Local shell history files
+.python_history
+
+# Keep submitted source files tracked.
+# Keep generated caches ignored.
+# Keep local databases ignored.
+# Keep credentials ignored.
+# This project remains Python-only.
+# No .ts files should be added.
+# No .tsx files should be added.
