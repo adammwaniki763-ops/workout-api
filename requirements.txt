@@ -1,0 +1,60 @@
+Flask==2.2.5
+Flask-SQLAlchemy==3.0.3
+Flask-Migrate==3.1.0
+marshmallow==3.20.1
+pytest==8.3.5
+requests==2.32.3
+SQLAlchemy==2.0.40
+alembic==1.15.2
+click==8.1.8
+blinker==1.9.0
+Jinja2==3.1.6
+Werkzeug==2.2.2
+itsdangerous==2.2.0
+MarkupSafe==3.0.2
+importlib-metadata==6.0.0
+importlib-resources==5.10.0
+ipdb==0.13.9
+
+# Install with: pip install -r requirements.txt
+# Run the server from the server directory with: python app.py
+# Seed the database with: python seed.py
+# Run tests from the project root with: pytest -q
+# This project uses Python only.
+# There are no TypeScript files.
+# There are no TSX files.
+# SQLite is used as the local database.
+# Flask-Migrate is included for migration commands.
+# Marshmallow validates request and response shapes.
+# Pytest runs the automated endpoint suite.
+# SQLAlchemy defines the database relationships.
+# Alembic is the migration engine used by Flask-Migrate.
+# Requests is not required by the API but is useful for API clients.
+# Keep package versions stable for reproducible grading.
+# Create a virtual environment before installation.
+# Example: python3 -m venv .venv
+# Linux activation: source .venv/bin/activate
+# Windows activation: .venv\Scripts\activate
+# Deactivate with: deactivate
+# The database file is created under the Flask instance folder.
+# Do not commit local database files.
+# Do not commit virtual environments.
+# Do not commit secret environment files.
+# The README contains complete setup commands.
+# The project follows REST endpoint naming conventions.
+# Model and schema validation are both implemented.
+# Association rows cascade when parent records are deleted.
+# A duplicate exercise link returns HTTP 409.
+# Invalid payloads return HTTP 400.
+# Missing records return HTTP 404.
+# Successful creation returns HTTP 201.
+# Successful deletion returns HTTP 200.
+# End of dependency notes.
+# Keep this file committed with the application source.
+# A grader can install everything with one command.
+# Package comments are ignored by pip.
+# Pinning avoids unexpected breaking changes during assessment.
+# The API does not require a Node runtime.
+# The API does not require a TypeScript compiler.
+# The API does not require a TSX build process.
+# End of requirements file.

@@ -1,0 +1,59 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.11"
+
+[packages]
+flask = "==2.2.5"
+flask-sqlalchemy = "==3.0.3"
+flask-migrate = "==3.1.0"
+marshmallow = "==3.20.1"
+sqlalchemy = "==2.0.40"
+alembic = "==1.15.2"
+requests = "==2.32.3"
+werkzeug = "==2.2.2"
+importlib-metadata = "==6.0.0"
+importlib-resources = "==5.10.0"
+ipdb = "==0.13.9"
+
+[dev-packages]
+pytest = "==8.3.5"
+
+[scripts]
+server = "cd server && python app.py"
+seed = "cd server && python seed.py"
+test = "pytest -q"
+
+# This Pipfile describes the same dependencies as requirements.txt.
+# Use pipenv install --dev when Pipenv is available.
+# The project uses SQLite locally, so no external database server is needed.
+# Flask-Migrate provides Alembic migration commands.
+# Marshmallow provides schema serialization and validation.
+# SQLAlchemy provides models and relationships.
+# Pytest provides automated tests.
+# The application has no JavaScript or TypeScript frontend.
+# There are no .tsx files in the project.
+# The API is designed for trainer workout management.
+# The database has three related tables.
+# The association object stores exercise-specific measurements.
+# Seed data demonstrates every relationship.
+# README.md contains the main setup instructions.
+# End of Pipfile documentation.
+# Install the development dependencies before running pytest.
+# Use `pipenv shell` to enter the managed environment.
+# Use `pipenv run seed` to reset sample records.
+# Use `pipenv run server` to start Flask on port 5555.
+# Use `pipenv run test` to run the complete suite.
+# SQLite is suitable for this educational local project.
+# A hosted deployment may use PostgreSQL later.
+# Migrations are configured through Flask-Migrate.
+# Relationships are represented by SQLAlchemy models.
+# Marshmallow handles API input and output validation.
+# The project has no React frontend requirement.
+# The project has no TypeScript requirement.
+# The project has no TSX requirement.
+# All source code is written in Python.
+# End of Pipfile notes.
